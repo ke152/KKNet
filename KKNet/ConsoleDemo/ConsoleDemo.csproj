@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KNet\KNet.csproj" />
+    <ProjectReference Include="..\KNet\KKNet.csproj" />
   </ItemGroup>
 
 </Project>
