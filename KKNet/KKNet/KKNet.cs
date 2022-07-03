@@ -98,26 +98,6 @@ public class KKSocket
             skt.Close();
         }
     }
+    */
 
-    public List<T> GetSesstionLst()
-    {
-        return sessionLst;
-    }
-
-    /// <summary>
-    /// Log
-    /// </summary>
-    /// <param name="log">log switch</param>
-    /// <param name="logCB">log function</param>
-    public void SetLog(bool log = true, Action<string, int> logCB = null)
-    {
-        if (log == false)
-        {
-            PETool.log = false;
-        }
-        if (logCB != null)
-        {
-            PETool.logCB = logCB;
-        }
-    }*/
 }
